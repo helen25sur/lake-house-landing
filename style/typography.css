@@ -1,0 +1,72 @@
+.heading-lg,
+.heading-md,
+.heading-sm {
+  font-family: 'Merriweather', sans-serif;
+  font-style: normal;
+}
+
+.heading-lg {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.heading-md {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.heading-sm {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.heading-xs {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.body-txt-lg,
+.body-txt-md {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.body-txt-lg {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.body-txt-md {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* in footer */
+/* TODO: + class '.body-txt-md' */
+.caption { 
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+address {
+  font-style: normal;
+}
+
+/* TODO: learn more */
+p {
+  break-inside: avoid-column;
+}
+
+.gutter {
+  margin-bottom: 8px;
+}
+
+:is(p, h1, h2, h3, h4, h5, h6).align-center {
+  text-align: center;
+}

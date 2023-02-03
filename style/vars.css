@@ -1,0 +1,26 @@
+:root {
+/* ========= COLORS ========= */
+  --clr-soft-grey: #FDFCFC;
+  --clr-light-grey: #504B49;
+  --clr-grey: #353231;
+  --clr-dark-grey: #1B1918;
+
+  --clr-soft-brown: #EEE4DD;
+  --clr-light-brown: #D7C0AE;
+  --clr-brown: #967E76;
+  --clr-dark-brown: #5F4F49;
+
+  --clr-orange: #E08631;
+
+  /* ========== GAPS ========= */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+  --gap-xl: 32px;
+  --gap-xxl: 64px;
+  --gap-xxxl: 96px;
+
+  /* ========== WIDTH ========= */
+  --width-full: 100%;
+}
