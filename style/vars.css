@@ -23,4 +23,6 @@
 
   /* ========== WIDTH ========= */
   --width-full: 100%;
+  --width-sm: 592px;
+  --width-md: 794px;
 }

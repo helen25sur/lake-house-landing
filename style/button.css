@@ -1,0 +1,47 @@
+.btn {
+  --btn-default-fill: var(--clr-dark-brown);
+  --btn-active-fill: var(--clr-soft-brown);
+  --btn-label-color: #F3F2F2;
+  --clr: var(--btn-default-fill);
+
+  /* Reset */
+  font-family: 'Lato';
+  font-style: 16px;
+  line-height: 20px;
+  background: none;
+  border: none;
+
+  /* Styles */
+  padding: 10px 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  flex: none;
+  transition: all 0.2s ease-in;
+}
+
+.btn.small {
+  padding: 6px 10px;
+}
+
+.btn.outline {
+  color: var(--clr);
+  border-color: var(--clr);
+}
+
+.btn.solid {
+  color: var(--btn-label-color);
+  background-color: var(--btn-default-fill);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--btn-label-color);
+  background-color: var(--clr-orange);
+}
+
+.btn:active {
+  color: var(--clr);
+  background-color: var(--btn-active-fill);
+  transform: translateY(1px);
+}
