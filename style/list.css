@@ -6,6 +6,16 @@
   padding: 0;
 }
 
+.header-list {
+  /* display: flex; */
+  display: none;
+}
+
+.header-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .list-item {
   display: grid;
   row-gap: var(--row-gap);

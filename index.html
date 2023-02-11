@@ -1,13 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/images/icons/favicon.svg" type="image/x-icon">
   <title>The Lake House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style/vars.css">
+  <link rel="stylesheet" href="./style/layout.css">
+  <link rel="stylesheet" href="./style/typography.css">
+  <link rel="stylesheet" href="./style/section.css">
+  <link rel="stylesheet" href="./style/button.css">
+  <link rel="stylesheet" href="./style/list.css">
+
 </head>
+
 <body>
-  
+  <header class="main-header grid-container">
+    <nav class="main-nav grid-content">
+      <svg class="logo" width="77" height="34">
+        <use href="./images/icons/logo.svg#logo" />
+      </svg>
+
+      <ul class="nav-list list header-list heading-xs">
+        <li class="nav-item"><a class="nav-link" href="#">Start</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Our history</a></li>
+      </ul>
+
+      <ul class="social-list list header-list">
+        <li class="social-item">
+          <a class="social-link" href="#">
+            <svg width="20" height="20">
+              <use href="./images/icons/social-icon-fb.svg#icon" />
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="#">
+            <svg width="20" height="20">
+              <use href="./images/icons/social-icon-inst.svg#icon" />
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="#">
+            <svg width="20" height="20">
+              <use href="./images/icons/social-icon-pint.svg#icon" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <button class="mob-burger btn">
+        <svg class="logo" width="48" height="48">
+          <use href="./images/icons/burger-menu.svg#icon" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <main class="grid-container">
+    <section class="hero-section grid-content-full grid-container cover">
+      <div class="grid-content">
+        <p class="heading-md gutter">Experience the perfect combination of modern housing & natural scenery</p>
+        <button class="btn solid">Book now</button>
+      </div>
+    </section>
+
+    <section class="about-section grid-container grid-content-full">
+      <div class="section-content grid-content">
+        <img src="./images/section2-photo.jpg">
+        <div class="about-decription body-txt-md">
+          <p class="gutter"> LAKE HOUSE is an authentic spa hotel lost in the middle of the forest. The dreamy landscape
+            promises a
+            peaceful journey away from the noisy world. Visiting LAKE HOUSE is a true experience of a private secluded
+            space. Everything is organic and natural. </p>
+          <p class="gutter">A guest who has visited our hotel at least once dreams of returning to the unparalleled,
+            soothing,
+            attractive atmosphere of LAKE HOUSE.</p>
+
+          <p class="gutter">We have created a design that is one hundred percent integrated into the existing landscape,
+            and in no way
+            harms the natural environment.</p>
+
+          <p class="gutter">We are very proud that we did not cut down a single tree during the construction period.
+            Careful attitude
+            towards the existing environment is one of the most important missions of our project.</p>
+
+          <p class="gutter">We offer our guests a concept of hospitality that is much more than the standard bed and
+            board approach. The concept of our project has clear real goals:</br>
+              - Environmental Protection,</br>
+              - preservation of forests,</br>
+              - growing organic vegetables, etc.
+          </p>
+
+          <p class="gutter">We created a feeling of transparency and freshness, filled the space with light and
+            complemented the unforgettable natural atmosphere with wooden accents, soft comfortable floors and modern
+            design. Impressive views from the windows will capture your imagination, provide inspiration and create a
+            feeling of complete unity with nature.</p>
+        <hr class="divider">
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-content section-content">
+      <p class="heading-lg align-center">The Lake House is the perfect weekend getaway cabin</p>
+    </section>
+
+    <img class="grid-content-full illustration" src="./images/section4-photo.jpg" alt="view house">
+
+    <section class="arrangements-section grid-container grid-content-full">
+    <div class="grid-content section-content">
+      <hr class="divider">
+      <header class="arrangements-header section-header">
+        <h2 class="heading-sm">Sleeping arrangements</h2>
+        <p class="arrangements-description body-txt-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerie aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.
+        </p>
+      </header>
+      <ul class="arrangements-list list body-txt-md">
+        <li class="list-item">
+          <svg class="icon" width="60" height="60">
+            <use href="./images/icons/list-1/coffee-icon.svg#icon" />
+          </svg>
+          <div class="item-text">
+            <h3>Facilities</h3>
+            <p>The cabin is equipped with dishes, fridge, coffee machine and microwave.</p>
+          </div>
+        </li>
+        <li class="list-item">
+          <svg class="icon" width="60" height="60">
+            <use href="./images/icons/list-1/bed-icon.svg#icon" />
+          </svg>
+          <div class="item-text">
+            <h3>Bedrooms</h3>
+            <p>Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds per room.</p>
+          </div>
+        </li>
+        <li class="list-item">
+          <svg class="icon" width="60" height="60">
+            <use href="./images/icons/list-1/bath-icon.svg#icon" />
+          </svg>
+          <div class="item-text">
+            <h3>Bathrooms</h3>
+            <p>The cabin has three bathrooms, all equipped with showers and one with a bath tub</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </section>
+  </main>
+  <footer></footer>
 </body>
+
 </html>
