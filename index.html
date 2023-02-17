@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="./style/section.css">
   <link rel="stylesheet" href="./style/button.css">
   <link rel="stylesheet" href="./style/list.css">
+  <link rel="stylesheet" href="./style/styles.css">
 
 </head>
 
@@ -58,7 +59,7 @@
         </li>
       </ul>
 
-      <button class="mob-burger btn">
+      <button hidden class="mob-burger btn">
         <svg class="logo" width="48" height="48">
           <use href="./images/icons/burger-menu.svg#icon" />
         </svg>
@@ -95,16 +96,16 @@
 
           <p class="gutter">We offer our guests a concept of hospitality that is much more than the standard bed and
             board approach. The concept of our project has clear real goals:</br>
-              - Environmental Protection,</br>
-              - preservation of forests,</br>
-              - growing organic vegetables, etc.
+            - Environmental Protection,</br>
+            - preservation of forests,</br>
+            - growing organic vegetables, etc.
           </p>
 
           <p class="gutter">We created a feeling of transparency and freshness, filled the space with light and
             complemented the unforgettable natural atmosphere with wooden accents, soft comfortable floors and modern
             design. Impressive views from the windows will capture your imagination, provide inspiration and create a
             feeling of complete unity with nature.</p>
-        <hr class="divider">
+          <hr class="divider">
         </div>
       </div>
     </section>
@@ -116,47 +117,290 @@
     <img class="grid-content-full illustration" src="./images/section4-photo.jpg" alt="view house">
 
     <section class="arrangements-section grid-container grid-content-full">
-    <div class="grid-content section-content">
-      <hr class="divider">
-      <header class="arrangements-header section-header">
-        <h2 class="heading-sm">Sleeping arrangements</h2>
-        <p class="arrangements-description body-txt-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerie aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.
-        </p>
-      </header>
-      <ul class="arrangements-list list body-txt-md">
-        <li class="list-item">
-          <svg class="icon" width="60" height="60">
-            <use href="./images/icons/list-1/coffee-icon.svg#icon" />
-          </svg>
-          <div class="item-text">
-            <h3>Facilities</h3>
-            <p>The cabin is equipped with dishes, fridge, coffee machine and microwave.</p>
+      <div class="grid-content section-content">
+        <hr class="divider">
+        <header class="arrangements-header section-header">
+          <h2 class="heading-sm">Sleeping arrangements</h2>
+          <p class="arrangements-description body-txt-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerie aliquam odio et faucibus. Nulla
+            rhoncus feugiat eros quis consectetur.
+          </p>
+        </header>
+        <ul class="arrangements-list list body-txt-md">
+          <li class="list-item">
+            <svg class="icon" width="60" height="60">
+              <use href="./images/icons/list-1/coffee-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Facilities</h3>
+              <p>The cabin is equipped with dishes, fridge, coffee machine and microwave.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="60" height="60">
+              <use href="./images/icons/list-1/bed-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Bedrooms</h3>
+              <p>Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds per room.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="60" height="60">
+              <use href="./images/icons/list-1/bath-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Bathrooms</h3>
+              <p>The cabin has three bathrooms, all equipped with showers and one with a bath tub</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="escape-section grid-container grid-content-full">
+      <div class="grid-content section-content">
+        <hr class="divider">
+        <header class="escape-header section-header">
+          <h2 class="heading-sm">The perfect escape</h2>
+          <p class="escape-description body-txt-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla
+            rhoncus feugiat eros quis consectetur.
+          </p>
+        </header>
+        <ul class="escape-list list body-txt-md">
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/kitchen-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Modern Kitchen Appliances</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/outdoor-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Outdoor Paths</h3>
+              <p>Nulla rhoncus feugiat eros quis consectetur.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/coffee-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Coffee Maker</h3>
+              <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/natural-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Natural Scenery</h3>
+              <p>Cras commodo consequat orci, in convallis risus egestas non.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/conditioner-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Air Conditioner</h3>
+              <p>Nullam scelerisque aliquam odio et faucibus.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/storage-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Storage Solutions</h3>
+              <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/cutlery-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Cutlery Selection</h3>
+              <p>Duis tristique sed lorem a vestibulum.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-2/takeaway-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <h3>Take-away Options</h3>
+              <p>Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="guests-section grid-container grid-content-full">
+      <div class="grid-content section-content">
+        <hr class="divider">
+        <header class="guests-header section-header">
+          <h2 class="heading-sm">Past guests</h2>
+          <p class="guests-description body-txt-lg">
+            Don't take our word for it! Have a look at what our previous guests say about their stay at the Guest House.
+          </p>
+        </header>
+        <div class="cards-reviews">
+          <div class="card-review">
+            <h4 class="review-title heading-xs">Best vacation ever!</h4>
+            <p class="review-text body-txt-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+              ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut
+              sem vitae risus tristique posuere.</p>
+            <p class="reviewer body-txt-md">Laura Paulie</p>
           </div>
-        </li>
-        <li class="list-item">
-          <svg class="icon" width="60" height="60">
-            <use href="./images/icons/list-1/bed-icon.svg#icon" />
-          </svg>
-          <div class="item-text">
-            <h3>Bedrooms</h3>
-            <p>Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds per room.</p>
+          <div class="card-review">
+            <h4 class="review-title heading-xs">We had an amazing stay at the Guest House!</h4>
+            <p class="review-text body-txt-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+              ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut
+              sem vitae risus tristique posuere.</p>
+            <p class="reviewer body-txt-md">Nate Davidsson</p>
           </div>
-        </li>
-        <li class="list-item">
-          <svg class="icon" width="60" height="60">
-            <use href="./images/icons/list-1/bath-icon.svg#icon" />
-          </svg>
-          <div class="item-text">
-            <h3>Bathrooms</h3>
-            <p>The cabin has three bathrooms, all equipped with showers and one with a bath tub</p>
+          <div class="card-review">
+            <h4 class="review-title heading-xs">Best vacation ever!</h4>
+            <p class="review-text body-txt-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+              ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut
+              sem vitae risus tristique posuere.</p>
+            <p class="reviewer body-txt-md">Laura Paulie</p>
           </div>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+    </section>
+
+    <img class="grid-content-full illustration" src="./images/section8-photo.jpg" alt="fireplace in the house">
+
+    <section class="together-section grid-container grid-content">
+      <div class="grid-content section-content">
+        <hr class="divider">
+        <header class="together-header section-header">
+          <h2 class="heading-sm">Come together</h2>
+          <p class="together-description body-txt-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+          </p>
+        </header>
+        <ul class="together-list list body-txt-md">
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-3/wifi-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-3/slippers-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <p>Nulla rhoncus feugiat eros quis consectetur.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-3/bread-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <p>Nullam scelerisque aliquam odio et faucibus.</p>
+            </div>
+          </li>
+          <li class="list-item">
+            <svg class="icon" width="40" height="40">
+              <use href="./images/icons/list-3/cuterly-icon.svg#icon" />
+            </svg>
+            <div class="item-text">
+              <p>Morbi neque ex, condimentum.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hurryup-section grid-container grid-content-full">
+      <div class="grid-content section-content content-center">
+        <hr class="divider">
+        <header class="hurryup-header section-header md">
+          <h2 class="heading-sm">We're already booked up for the spring — hurry up & secure your stay for the summer!
+          </h2>
+          <p class="hurryup-description body-txt-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.
+          </p>
+          <div class="hurryup-btns">
+            <button class="btn outline">Contact us</button>
+            <button class="btn solid">Buy now</button>
+          </div>
+        </header>
+      </div>
     </section>
   </main>
-  <footer></footer>
-</body>
+  <footer class="main-footer grid-container grid-content-full">
+    <section class="footer-section grid-content ">
+      <div class="section-content body-txt-md">
+        <div class="contacts footer-block">
+          <p class="caption">SOCIAL MEDIA</p>
+          <ul class="social-list list">
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg width="20" height="20">
+                  <use href="./images/icons/social-icon-fb.svg#icon" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg width="20" height="20">
+                  <use href="./images/icons/social-icon-inst.svg#icon" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg width="20" height="20">
+                  <use href="./images/icons/social-icon-pint.svg#icon" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="caption">ADDRESS:</p>
+          <address>Klubbvika 12, 8310 Kabelvag, Norway</address>
+          <p class="caption ">PHONE:</p>
+          <a href="tel:+470702881234">+47 (0) 702 88 12 34</a>
+        </div>
+        <div class="newsletter footer-block">
+          <p class="caption">NEWSLETTER</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <input type="email" name="email" id="email" placeholder="Email">
+          <button class="btn solid small" type="submit">Submit</button>
+        </div>
+        <div class="copyright footer-block">
+          <svg class="logo" width="138" height="61">
+            <use href="./images/icons/logo.svg#logo" />
+          </svg>
+          <p>
+            © Lake House, LLC. All rights reserved. Powered by Example Company
+            <a href="tel:+470702881234">+47 (0) 702 88 12 34</a> - <a href="mailto:example@example.io">example@example.io</a>  - <address>Klubbvika 12, 8310 Kabelvag, Norway</address> 
+          </p>
+        </div>
+      </div>
+  
+    </section>
+  </footer>
+  </body>
 
 </html>
