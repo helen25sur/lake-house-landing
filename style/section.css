@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--gap-sm);
+  color: var(--clr-dark-grey);
 }
 
 .section-header.sm {
@@ -17,4 +18,12 @@
 
 .section-header.md {
   max-width: var(--width-md);
+}
+
+.section-content p {
+  color: var(--clr-light-grey);
+}
+
+.section-content h2 {
+  color: var(--clr-grey);
 }
