@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/images/icons/favicon.svg" type="image/x-icon">
   <title>The Lake House</title>
+  <script src="./scripts/mob-menu-btn.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -19,6 +20,7 @@
   <link rel="stylesheet" href="./style/button.css">
   <link rel="stylesheet" href="./style/list.css">
   <link rel="stylesheet" href="./style/card.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="./style/mob-menu-btn.css">
   <link rel="stylesheet" href="./style/styles.css">
   <link rel="stylesheet" media="screen and (max-width: 950px)" href="./style/smallscreen.css">
 
@@ -33,10 +35,16 @@
         </svg>
       </a>
 
+      <button hidden id="mob-menu-btn" class="mob-burger not-opened">
+        <span class="mob-burger-span"></span>
+        <span class="mob-burger-span"></span>
+        <span class="mob-burger-span"></span>
+      </button>
+
       <ul class="nav-list list header-list heading-xs">
-        <li class="nav-item"><a class="nav-link" href="#">Start</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Our history</a></li>
+        <li class="nav-item"><a class="nav-link" href="#start-section">Start</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#history-section">Our history</a></li>
       </ul>
 
       <ul class="social-list list header-list">
@@ -63,11 +71,6 @@
         </li>
       </ul>
 
-      <button hidden class="mob-burger btn">
-        <svg class="logo" width="48" height="48">
-          <use href="./images/icons/burger-menu.svg#icon" />
-        </svg>
-      </button>
     </nav>
   </header>
   <main class="grid-container">
@@ -78,7 +81,7 @@
       </div>
     </section>
 
-    <section class="about-section grid-container grid-content-full">
+    <section id="history-section" class="about-section grid-container grid-content-full">
       <div class="section-content grid-content">
         <img src="./images/section2-photo.jpg">
         <div class="about-decription body-txt-md">
@@ -384,7 +387,7 @@
       </div>
     </section>
 
-    <section class="hurryup-section grid-container grid-content-full">
+    <section id="start-section" class="hurryup-section grid-container grid-content-full">
       <div class="grid-content section-content content-center">
         <header class="hurryup-header section-header md">
         <hr class="divider">
@@ -402,7 +405,7 @@
       </div>
     </section>
   </main>
-  <footer class="main-footer grid-container grid-content-full">
+  <footer id="contacts" class="main-footer grid-container grid-content-full">
     <section class="footer-section grid-content ">
       <div class="section-content body-txt-md">
         <div class="contacts footer-block">

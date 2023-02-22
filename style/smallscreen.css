@@ -12,7 +12,7 @@
 }
 
 .main-footer .section-content {
-  grid-template-areas: 
+  grid-template-areas:
     "contacts"
     "newsletter"
     "copyright";
@@ -47,7 +47,7 @@
   }
 
   .about-section .section-content {
-    grid-template-areas: 
+    grid-template-areas:
       "text"
       "image";
     grid-template-columns: 1fr;
@@ -120,5 +120,56 @@
 
   .contacts {
     row-gap: var(--gap-md);
+  }
+}
+
+/* ============ header =========== */
+@media screen and (max-width: 600px) {
+  .main-header:has(.opened) {
+    opacity: 0.8;
+  }
+
+  .header-list {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    align-items: center;
+    background-color: var(--clr-dark-brown);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(5px);
+    transform: translateY(-300px);
+    transition: all var(--duration) ease-in-out;
+  }
+
+  .nav-list {
+    top: calc(var(--header-height) + 30px);
+    flex-direction: column;
+    gap: 16px;
+    padding-top: var(--gap-md);
+    padding-bottom: var(--gap-xl);
+    opacity: 0;
+  }
+
+  .social-list {
+    height: 32px;
+    top: var(--header-height);
+    justify-content: center;
+  }
+
+  .social-item:nth-of-type(2) {
+    margin: 0 var(--gap-md);
+  }
+
+  .opened~.nav-list,
+  .opened~.social-list {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .not-opened~.nav-list,
+  .not-opened~.social-list {
+    opacity: 0;
+    transform: translateY(-300px);
   }
 }

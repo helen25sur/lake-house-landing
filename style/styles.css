@@ -1,4 +1,8 @@
 /* ========== Common styles ============ */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--clr-soft-grey);
   color: var(--clr-dark-grey);
