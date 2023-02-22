@@ -1,0 +1,124 @@
+.section-content {
+  padding: var(--gap-xxl) 0;
+}
+
+.about-section .about-decription {
+  columns: 1;
+}
+
+.heading-lg {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.main-footer .section-content {
+  grid-template-areas: 
+    "contacts"
+    "newsletter"
+    "copyright";
+  grid-template-columns: 1fr;
+}
+
+.cards-reviews {
+  overflow: hidden;
+}
+
+.card-review:nth-of-type(odd) {
+  min-width: 250px;
+}
+
+.card-review:nth-of-type(2) {
+  min-width: 350px;
+}
+
+@media screen and (max-width: 750px) {
+  .section-content {
+    padding: var(--gap-xl) 0;
+  }
+
+  .heading-md {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .heading-sm {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .about-section .section-content {
+    grid-template-areas: 
+      "text"
+      "image";
+    grid-template-columns: 1fr;
+  }
+
+  .about-section .divider {
+    justify-self: center;
+  }
+
+  .about-section img {
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .together-section .section-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-content {
+    padding: var(--gap-lg) 0;
+  }
+
+  .arrangements-section header,
+  .escape-section header {
+    margin: var(--gap-xs) 0 var(--gap-xl);
+  }
+
+  .arrangements-list {
+    --row-gap: var(--gap-lg);
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .arrangements-list .list-item {
+    grid-template-columns: min-content 1fr;
+    max-width: 100%;
+  }
+
+  .item-text h3 {
+    text-align: left;
+  }
+
+  .escape-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .guests-header {
+    margin-bottom: var(--gap-xl);
+  }
+
+  .guests-section h2,
+  .together-header h2,
+  .hurryup-section h2 {
+    margin-top: var(--gap-md);
+  }
+
+  .together-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: var(--gap-md) 0;
+  }
+
+  .main-footer .section-content {
+    gap: var(--gap-xl);
+  }
+
+  .contacts {
+    row-gap: var(--gap-md);
+  }
+}
